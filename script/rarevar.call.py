@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import pickle
 from sklearn import svm
-from bubblecalling import read2kmers, decodeNumericString, getRCkmer, e2ce, k2ck, Edge, decode_edges, es2bigf, check_bubble_root_edge
+from TR_bubble_search import read2kmers, decodeNumericString, getRCkmer, e2ce, k2ck, Edge, decode_edges, es2bigf, check_bubble_root_edge
 
 
 def load_precision_filter(fn, rc_th=0.9):
